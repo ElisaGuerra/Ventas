@@ -1,0 +1,78 @@
+body{
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-image: url("../Recursos/FondoInicio.png");
+	margin: 0;
+}
+
+.CajaPrin{
+	background-color: white;
+	width: 83vw;
+	height: 85vh;
+	margin: 7.5vh 8.5vw 7.5vh 8.5vw;
+	border-radius: 40px;
+	display: flex;
+	justify-content: left;
+}
+
+.CajaIzq{
+	background-color: #EFDDCB;
+	border-radius: 40px 0px 0px 40px;
+	width: 47%;
+	height: 100%;
+}
+
+.GotasIzq{
+	border-radius: 40px 0px 0px 0px;
+	width: 100%;
+	height: 50%;
+}
+
+.CafePrin{
+	width: 100%;
+}
+
+.Cafe{
+	position: relative;
+	top: -35%;
+	left: 26%;
+	height: 100%;
+}
+
+.Bienvenida{
+	font: bold 100% Quicksand;
+	color: #977359;
+	font-size: 64px;
+	position: relative;
+	top: -32vh;
+	left: 20%;
+}
+
+.CajaDer{
+	background-color: #EFE6DE;
+	border-radius: 0px 40px 40px 0px;
+	width: 53%;
+	height: 100%;
+}
+
+.GotasDer{
+	border-radius: 0px 40px 0px 0px;
+	width: 100%;
+	height: 50%;
+}
+
+.Sesion{
+	background-color: white;
+	width: 26vw;
+	height: 65vh;
+	border-radius: 20px;
+	position: relative;
+	top: -32vh;
+	left: 20%;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+

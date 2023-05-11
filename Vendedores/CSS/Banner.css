@@ -1,0 +1,47 @@
+
+ .BannerPrin{
+ 	width:100%;
+ 	height: 30vh;
+ }
+
+.Banner{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+
+}
+
+.PerfilPrin{
+	width: 100%;
+	height: 25vh;
+}
+
+.Perfil{
+	position: relative;
+	top: -13vh;
+	left: 43%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For tablets: */
+
+  .PerfilPrin{
+	width: 100%;
+	height: 15vh;
+}
+  .Perfil{
+	position: relative;
+
+	top: -8vh;
+	left: 35%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+ .BannerPrin{
+ 	width:100%;
+ 	height: 16vh;
+ }
+}
