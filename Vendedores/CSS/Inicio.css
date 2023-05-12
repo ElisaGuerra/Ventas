@@ -45,10 +45,10 @@ body{
 .Bienvenida{
 	font: bold 100% Quicksand;
 	color: #977359;
-	font-size: 64px;
+	font-size: 5vw;
 	position: relative;
-	top: -32vh;
-	left: 20%;
+	top: -38vh;
+	left: 12%;
 }
 
 .CajaDer{
@@ -75,4 +75,72 @@ body{
 	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
 }
 
+.InicioSesion{
+	font: bold 100% Quicksand;
+	color: #977359;
+	font-size: 2.5vw;
+	position: relative;
+	top: 5%;
+	left: 5%;
+}
 
+.Usuario{
+	font: bold 100% Quicksand;
+	color: #B5A295;
+	font-size: 1vw;
+	position: relative;
+	top: 7.5%;
+	left: 5%;
+}
+
+.CajaUsuario{
+	background-color: #EFE6DE;
+	width: 90%;
+	height: 6vh;
+	border-radius: 20px;
+	position: relative;
+	top: 10%;
+	left: 5%;
+}
+
+.Contrasena{
+	font: bold 100% Quicksand;
+	color: #B5A295;
+	font-size: 1vw;
+	position: relative;
+	top: 15%;
+	left: 5%;
+}
+
+.CajaContrasena{
+	background-color: #EFE6DE;
+	width: 90%;
+	height: 6vh;
+	border-radius: 20px;
+	position: relative;
+	top: 17.5%;
+	left: 5%;
+}
+
+.Olvido{
+	font: bold 100% Quicksand;
+	color: #B5A295;
+	font-size: 0.75vw;
+	position: relative;
+	top: 17.75%;
+	left: 60%;
+}
+
+.BotonInicio{
+	background-color: #A38064;
+	width: 60%;
+	height: 8vh;
+	border-radius: 20px;
+	position: relative;
+	top: 22%;
+	left: 20%;
+	text-align: center;
+	font: bold 100% Quicksand;
+	color: #EFE6DE;
+	font-size: 2vw;
+}
