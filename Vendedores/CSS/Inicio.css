@@ -144,3 +144,76 @@ body{
 	color: #EFE6DE;
 	font-size: 2vw;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For tablets: */
+
+    .CajaPrin{
+	  	background-color: #EFE6DE;
+		width: 100vw;
+		height: 100vh;
+		border-radius: 0%;
+		margin: 0;
+		display: flex;
+		justify-content: center;
+	}
+
+	.Sesion{
+		background-color: white;
+		width: 160%;
+		height: 85%;
+		border-radius: 20px;
+		position: relative;
+		top: -50%;
+		left: -75%;
+		box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+	}
+
+	.InicioSesion{
+		font-size: 7.5vw;
+	}
+
+	.Usuario{
+		font-size: 5vw;
+
+	}
+
+	.CajaUsuario{
+		top: 7.5%;
+	}
+
+	.Contrasena{
+		font-size: 5vw;
+	}
+
+	.CajaContrasena{
+		top: 15%;
+	}
+
+.Olvido{
+	font-size: 2.5vw;
+	position: relative;
+	top: 15.25%;
+	left: 55%;
+}
+
+.BotonInicio{
+	top: 35%;
+	left: 20%;
+	font-size: 7.5vw;
+}
+
+	.GotasDer{
+		visibility: hidden;
+	}
+
+	.CajaIzq{
+		visibility: hidden;
+	}
+
+	.GotasIzq{
+		visibility: hidden;
+	}
+  }
+
+
