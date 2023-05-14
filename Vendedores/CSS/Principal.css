@@ -1,0 +1,425 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Quicksand;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.Container{
+	width: 95vw;
+	height: 97.5vh;
+	margin: 1.25vh 2.5vw 1.25vh 2.5vw;
+}
+
+.Container-Nov{
+	width: 100%;
+	height: 25vh;
+	border-radius: 20px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.Novedad{
+	background-color: #EFDDCB;
+	width: 15%;
+	height: 83%;
+	border-radius: 20px;
+	position: relative;
+}
+
+.Nove{
+	position: relative;
+	height: 75%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.PerfilNov{
+	position: relative;
+	height: 4vh;
+	width: 2vw;
+	border-radius: 50%;
+	left: 5%;
+}
+
+.Name{
+	font-size: 1vw;
+	font-weight: 500;
+	color: #977359;
+	position: relative;
+	left: 25%;
+	top: -20%;
+}
+
+.Descripcion{
+	font-size: 0.8vw;
+	font-weight: 400;
+	color: #977359;
+	position: relative;
+	left: 25%;
+	top: -19.5%;
+}
+
+.Nov01{
+	left: 0;
+}
+
+.Nov02{
+	top: -83%;
+	left: 17%;
+}
+
+.Nov03{
+	top: -166%;
+	left: 34%;
+}
+
+.Nov04{
+	top: -249%;
+	left: 51%;
+}
+
+.Nov05{
+	top: -332%;
+	left: 68%;
+}
+
+.Nov06{
+	top: -415%;
+	left: 85%;
+}
+
+.Container-Icons{
+	background-color: #EDE7E7;
+	width: 100%;
+	height: 15vh;
+	border-radius: 20px;
+	position: relative;
+	top: 1.25%;
+	left: 0;
+	display: flex;
+	align-items: center;
+}
+
+.Icono{
+	width: 8%;
+	height: 90%;
+	border-radius: 20px;
+	position: relative;
+	top: 0.75%;
+	left: 2%;
+}
+
+.ImagenIcono{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+.Dulces{
+	left: 2%;
+}
+
+.Salados{
+	left: 4.5%;
+}
+
+.Bebidas{
+	left: 7.5%;
+}
+
+.Desayunos{
+	left: 10.5%;
+}
+
+.Electronica{
+	left: 13.5%;
+}
+
+.Papeleria{
+	left: 16.5%;
+}
+
+.Manualidades{
+	left: 19.5%;
+}
+
+.Frios{
+	left: 22.5%;
+}
+
+.Otros{
+	left: 25.5%;
+}
+
+.ContainerDos{
+	width: 100%;
+	height: 55%;
+	position: relative;
+	top: 2.5%;
+	left: 0;
+	display: flex;
+	justify-content: left;
+}
+
+.Container-Explanada{
+	background-color: #BFACA6;
+	border-radius: 20px;
+	width: 30%;
+	height: 100%;
+}
+
+.Titulo{
+	font: bold 100%;
+	color: #977359;
+	font-size: 1.75vw;
+	position: relative;
+	top: 2%;
+}
+
+.Explanada{
+	left: 5%;
+}
+
+.Pasillo{
+	left: 2%;
+}
+
+.Novedades{
+	left: 5%;
+}
+
+.Mesas{
+	background-color: #EDE7E7;
+	width: 35%;
+	height: 10vh;
+	border-radius: 20px;
+	position: relative;
+	left: 10%;
+	box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+.Izq{
+	left: 10%;
+}
+
+.Der{
+	left: 55%;
+}
+
+.TextMesa{
+	font: bold 100%;
+	color: #BEB4A0;
+	font-size: 1.5vw;
+	position: relative;
+	top: 5%;
+	left: 25%;
+}
+
+.MesaIzq{
+	background-color: #CCC2C0;
+	width: 2vw;
+	height: 4vh;
+	border-radius: 50%;
+	position: relative;
+	top: 15%;
+	left: 20%;
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.MesaDer{
+	background-color: #CCC2C0;
+	width: 2vw;
+	height: 4vh;
+	border-radius: 50%;
+	position: relative;
+	left: 60%;
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.DerExplanada{
+	top: 15%;
+}
+
+.DerPasillo{
+	top: -25%;
+}
+
+.MesaUno{
+	top: 3%;
+}
+
+.MesaDos{
+	top: 6%;
+}
+
+.MesaTres{
+	top: 9%;
+}
+
+.MesaCuatro{
+	top: 12%;
+}
+
+.MesaCinco{
+	top: -71.5%;
+}
+
+.MesaSeis{
+	top: -68.5%;
+}
+
+.MesaSiete{
+	top: -65.5%;
+}
+
+.MesaOcho{
+	top: -62.5%;
+}
+
+.ContainerTres{
+	width: 68.75%;
+	height: 100%;
+	position: relative;
+	left: 1.25%;
+}
+
+.Container-Pasillo{
+	background-color: #E9D3C4;
+	width: 100%;
+	height: 16vh;
+	border-radius: 20px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.MesasPasillo{
+	background-color: white;
+	width: 12.5%;
+	height: 10vh;
+	border-radius: 20px;
+	position: relative;
+	box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+.TextMesaPasillo{
+	font: bold 100%;
+	color: #977359;
+	font-size: 1.5vw;
+	position: relative;
+	top: 5%;
+	left: 24%; 
+}
+
+.MesapUno{
+	top: 5%;
+	left: 2%;
+}
+
+.MesapDos{
+	top: -57.5%;
+	left: 16%;
+}
+
+.MesapTres{
+	top: -120%;
+	left: 30%;
+}
+
+.MesapCuatro{
+	top: -182%;
+	left: 44%;
+}
+
+.MesapCinco{
+	top: -244%;
+	left: 58%;
+}
+
+.MesapSeis{
+	top: -306%;
+	left: 72%;
+}
+
+.MesapSiete{
+	top: -368%;
+	left: 86%;
+}
+
+.Container-Desglose{
+	width: 100%;
+	height: 36vh;
+	border-radius: 20px;
+	position: relative;
+	top: -352%;
+	left: 0;
+}
+
+.Desglose{
+	background-color: #B68E8E;
+	width: 24%;
+	height: 100%;
+	border-radius: 20px;
+	position: relative;
+}
+
+.Des01{
+	left: 0;
+}
+
+.Des02{
+	top: -100%;
+	left: 25.25%;
+}
+
+.Des03{
+	top: -200%;
+	left: 50.5%;
+}
+
+.Des04{
+	top: -300%;
+	left: 75.75%;
+}
+
+.TextDesglose{
+	font: bold 100%;
+	color: #EDE7E7;
+	position: relative;
+	top: 5%;
+	left: 7.5%; 
+}
+
+.DesTitulo{
+	font-size: 1.5vw;
+}
+
+.DesCuerpo{
+	font-size: 1vw;
+}
+
+.ImagenDesglose{
+	width: 90%;
+	height: 50%;
+	position: relative;
+	top: 5%;
+	left: 5%;
+}
+
+
+
+
+
+
+
